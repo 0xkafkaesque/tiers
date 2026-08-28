@@ -184,10 +184,10 @@ function create_img_with_src(src) {
 	});
 	// Listener for enlarging image
 	img.addEventListener("click", () => {
-    		modalImage.src = img.src;
-    		modalImage.alt = img.alt;
-    		modal.classList.add("visible");
-    		document.body.style.overflow = "hidden";
+		modalImage.src = img.src;
+		modalImage.alt = img.alt;
+		modal.classList.add("visible");
+		document.body.style.overflow = "hidden";
   	});
 	return img;
 }
